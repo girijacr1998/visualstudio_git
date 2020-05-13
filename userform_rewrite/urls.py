@@ -23,7 +23,7 @@ urlpatterns = [
     url('admin/', admin.site.urls),
     url(r'^userform/',include('user_form2.urls')),
     url(r'^logout/$',views.user_logout,name='user_logout'),
-    url(r'special/',views.special,name='special'),
+    
 
 ]
 
