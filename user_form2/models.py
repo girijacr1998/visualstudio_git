@@ -6,5 +6,4 @@ class UserProfileInfo(models.Model):
        portfolio=models.URLField(blank=True)
        profile_pics=models.ImageField(upload_to='profile_pic',blank=True)
 
-       def __str__ (self):
-         return self.user.username
+       
