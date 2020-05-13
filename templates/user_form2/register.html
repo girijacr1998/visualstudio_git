@@ -7,7 +7,7 @@
             <h2>you can now login ...</h2>
           {% else %}
            <h1> please register first...!!!</h1>
-           <h3>Please fill out the form:</h3>
+           <h3>Please fill  the form:</h3>
            <form method="POST" enctype="multipart/form-data">
                {%csrf_token%}
                {{users_form.as_p}}
